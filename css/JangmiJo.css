@@ -168,10 +168,13 @@ mark {
   justify-content: center;
 }
 
+#contacts > a {
+  margin-right: 30px;
+}
+
 #contacts > a > img {
   width: 40px;
   height: 40px;
-  margin-right: 30px;
 }
 
 #contacts > a > img:hover {
