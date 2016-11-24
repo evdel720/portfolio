@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jangmi Jo</title>
+    <link rel="stylesheet" href="./css_rest.css" type="text/css">
+    <link rel="stylesheet" href="./JangmiJo.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+  integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="./JangmiJo.js"></script>
+  </head>
+  <body>
+    <div class="header container-fluid">
+      <div class="header-contents">
+        <h1>Jangmi Jo</h1>
+        <h2>Full stack web developer</h2>
+        <nav class="navbar">
+          <div class="container-fluid">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="#aboutme">About me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="content">
+      <h3 id="aboutme">About me</h3>
+      <p>I am a web developer who loves clean, efficient and scalable code. I constantly refactor my code and look for ways to make it more readable and more efficient for both memory and time usage. I believe in test-driven development and I’ve built full apps using TDD principles.</p>
+      <p>I am a passionate and steady learner who loves the process of learning. I’m excited to find a place that I can continue to learn and grow as a developer.</p>
+      <p>In addition to writing software, I like to paint with acrylics or oils, exercise and translate Korean books to English.</p>
+      <p>If you would like to get to know me better and see my coding skills firsthand, please visit my livecoding channel <a href="https://www.livecoding.tv/evdel/">livecoding.tv/evdel</a> weekdays. I stream coding challenges, algorithms practice, and projects I’m working on daily. Feel free to stop by and say ‘hi’ in the chat.</p>
+
+      <h3 id="skills">Skills</h3>
+      <ul>
+        <li>JavaScript(ES5/ES6)</li>
+        <li>React</li>
+        <li>Redux</li>
+        <li>HTML/CSS</li>
+        <li>Ruby on Rails</li>
+        <li>SQL</li>
+      </ul>
+
+      <h3 id="projects">Projects</h3>
+      <ul>
+        <li>
+          <h4>WaterColor</h4>
+          <div>
+            <a href="https://evdel720.github.io/watercolor/">Live</a>
+            <a href="https://github.com/evdel720/watercolor">Github</a>
+          </div>
+          <p>JavaScript, HTML/CSS, HTML Canvas</p>
+          <p>WaterColor is a browser based sketching app that simulates the bloom effect of dropping water color onto paper. Along with the user's mouse movement, it initiates a PathGenerator. Each PathGenerator picks the next pixel to fill using a breadth-first algorithm and fills the pixel with custom color gradation to generate the seemingly random bloom effect.</p>
+          <p>I love this app because of its efficient algorithm and amazing beauty. Sometimes, I like to draw something on it and look at it for a while.</p>
+          <img src="http://res.cloudinary.com/wkdal720/image/upload/v1479779953/imageedit_6_4672038611_shbvrs.gif"/>
+        </li>
+        <li>
+          <h4>SpoonHelper</h4>
+          <a href="http://www.spoonhelper.us">Live</a>
+          <a href="https://github.com/evdel720/SpoonHelper">Github</a>
+          <p>Ruby on Rails, JavaScript, React, Redux, HTML/CSS, Postgresql</p>
+          <p>SpoonHelper is a recipe sharing app. I utilized Ruby on Rails for the backend, and JS with React/Redux for the frontend. I used Rails polymorphic associations to use the Image model in both the Category and Recipe table. Also, I made the Recipe controller handle the Step model’s CRUD (Recipe model's subordinated model) by using nested attributes. I joined related tables to prevent n+1 queries and implemented a search feature with both autocomplete and an actual search result page. Autocomplete only shows the top 5 results. I kept the edit recipe page’s route without a recipe id to hide the information and prevent an invalid approach. For this app, I valued for being a basic UI with no bugs or errors. When it is expected to do A for user, then it should do A. That was my goal and I think I did pretty well!</p>
+          <img src="http://res.cloudinary.com/wkdal720/image/upload/v1479781237/imageedit_2_8175847738_nmmnax.gif"/>
+        </li>
+        <li>
+          <h4>HearthCard Ratings</h4>
+          <a href="http://www.hearthcardratings.com/">Live</a>
+          <a href="https://github.com/JD-softwaredesign/hearthstone-card-ratings">Github</a>
+          <p>Ruby on Rails, JavaScript, React, Redux, HTML/CSS, Postgresql</p>
+          <p>HearthCard Ratings is a site for users to rate cards for the popular Blizzard game, Hearthstone. Before a new set of cards is released, users can rate on a scale of 1-5 and ratings are locked when the cards are released, so later users can see how accurate their ratings predictions were. It uses a smart store to reduce queries, by grabbing cards and ratings for a user on enter, and filtering those cards to a separate filtered cards store key, preventing having to query the database for cards again.</p>
+          <img src="http://res.cloudinary.com/wkdal720/image/upload/v1479781605/imageedit_2_4059992972_jx0y0g.gif"/>
+        </li>
+        <li>
+          <h4>Algorithms</h4>
+          <a href="https://www.livecoding.tv/evdel/">Live</a>
+          <a href="https://github.com/evdel720/algorithms">Github</a>
+          <p>Ruby, JavaScript</p>
+          <p>I love problem solving and talking about my code. I code everyday and stream my coding. In this channel, I solve coding challenges and implement Data Structures or algorithms.</p>
+        </li>
+        <li>
+          <h4>EasyGuide</h4>
+          <a href="https://chrome.google.com/webstore/detail/easy-guide/dccjjdojmlffijkphkelhgpocpafjmng">Chrome Store</a>
+          <a href="https://github.com/JD-softwaredesign/EasyGuide">Github</a>
+          <p>JavaScript, HTML, CSS</p>
+          <p>EasyGuide is a Chrome extension that lets a user record a series of clicks and play them back to guiding other users. When it plays a guide, it draws a green line from the mouse pointer to the element that is next to be clicked and highlights the element. I worked with another developer for this and we used git workflow with branching. Using the Chrome API was quite challenging and dealing with DOM elements was tricky. But we worked hard to overcome the challenges and it worked. I suggested this idea for guiding how to browse web for inexperienced computer users.</p>
+          <img src="http://res.cloudinary.com/wkdal720/image/upload/v1479782676/imageedit_0_3670583020_ligqny.gif"/>
+        </li>
+        <li>
+          <h4>DayPost</h4>
+          <a href="https://daypost.herokuapp.com/">Live</a>
+          <a href="https://github.com/evdel720/DayPost">Github</a>
+          <p>Ruby on Rails, HTML, Bootstrap, SQLite3, RSpec, Capybara, FactoryGirl, i18n</p>
+          <p>DayPost is a daily posting app built using Test Driven Development. It utilizes the Pundit gem to authorize users and the Devise gem for authentication. Authorized admin users can manage other users, posts, and comments. It uses SQLite3 for the development database and PSQL for the production database. It also has fully supported Korean translation for user interface with I18n.</p>
+        </li>
+      </ul>
+
+      <div id="contacts">
+        <a href="mailto:wkdal720@gmail.com"><img src="http://res.cloudinary.com/wkdal720/image/upload/v1479778321/email_i2gtbu.png"/></a>
+        <a href="https://www.linkedin.com/in/jangmi-jo"><img src="http://res.cloudinary.com/wkdal720/image/upload/v1473910851/watercolor/linkedin_lbczye.png"/></a>
+        <a href="https://github.com/evdel720"><img src="http://res.cloudinary.com/wkdal720/image/upload/v1473910794/watercolor/github_c54tsu.png"/></a>
+        <a href="https://jangmi.me/"><img src="http://res.cloudinary.com/wkdal720/image/upload/v1473954667/watercolor/imageedit_1_8723619617_gi5qh4.png"/></a>
+      </div>
+    </div>
+  </body>
+</html>
