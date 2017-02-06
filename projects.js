@@ -1,5 +1,5 @@
 const aboutme = [
-  "I am a software engineer who loves clean, efficient and scalable code. I constantly refactor my code and look for ways to make it more readable and more efficient for both memory and time usage. Once I get to work on a projct, I fall in love with it and dedicate 100% of myself.",
+  "I am a software engineer who loves clean, efficient and scalable code. I constantly refactor my code and look for ways to make it more readable and more efficient for both memory and time usage. Once I get to work on a project, I fall in love with it and dedicate 100% of myself.",
   "I am a passionate and steady learner who loves the learning experience. I spend vast majority of my time for learning new technologies and owning them. I feel really satisfied when I'm making use of new knowledge!",
   "In addition to writing software, I like to paint with acrylics or oils, exercise, travel, and translate Korean novels to English. I am really interested in helping humanity, like education and environment."];
 
